@@ -1,0 +1,44 @@
+.right-sidebar {
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #d9d9d9;
+}
+
+.suggestions, .trends {
+    margin-bottom: 20px;
+    background-color: #192734;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.suggestions h3, .trends h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.suggestions ul, .trends ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.suggestions li, .trends li {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #d9d9d9;
+}
+
+.suggestions li button {
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.suggestions li button:hover {
+    background-color: #0d8adb;
+    cursor: pointer;
+}

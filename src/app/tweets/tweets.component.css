@@ -1,0 +1,37 @@
+.tweet {
+    background-color: #192734;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.tweet img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.tweet-content {
+    width: 100%;
+    color: white;
+}
+
+.tweet-content h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.tweet-content h4 span {
+    font-size: 14px;
+    color: #8899a6;
+}
+
+.tweet-content p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    color: #d9d9d9;
+}

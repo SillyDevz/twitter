@@ -1,0 +1,125 @@
+.profile {
+    background-color: #22303c;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.profile-info {
+    flex-grow: 1;
+}
+
+.profile-info h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+.profile-info p {
+    font-size: 16px;
+    color: gray;
+    margin: 5px 0 10px;
+}
+
+.profile-info .follow-info {
+    color: #1da1f2;
+    font-size: 14px;
+}
+
+.follow-button {
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.follow-button:hover {
+    background-color: #0d8adb;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tab {
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tab:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.tab.active {
+    color: #1da1f2;
+    border-bottom: 3px solid #1da1f2;
+}
+
+.tweet {
+    background-color: #192734;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tweet img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.tweet-content {
+    padding-left: 15px;
+    width: 100%;
+}
+
+.tweet-content h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+.tweet-content span {
+    font-size: 14px;
+    color: gray;
+}
+
+.tweet-content p {
+    margin-top: 5px;
+    color: #d9d9d9;
+}

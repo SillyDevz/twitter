@@ -1,0 +1,124 @@
+app-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 240px;
+    background-color: #192734;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin: 0;
+    box-shadow: none;
+    border-right: none; 
+}
+
+app-sidebar nav ul {
+    padding-left: 0;
+    margin-top: 20px;
+    flex-grow: 1;
+}
+
+app-sidebar nav ul li {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    padding-left: 20px;
+    font-size: 18px;
+    transition: background-color 0.2s ease-in-out;
+    list-style-type: none;
+}
+
+app-sidebar nav ul li a {
+    color: white;
+    font-weight: bold;
+    margin-left: 15px;
+    text-decoration: none;
+    flex-grow: 1;
+}
+
+app-sidebar nav ul li a:hover,
+app-sidebar nav ul li.active a {
+    background-color: rgba(29, 161, 242, 0.3);
+    color: #1da1f2;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+app-sidebar nav ul li:hover {
+    background-color: #253341;
+    cursor: pointer;
+}
+
+app-sidebar nav ul li fa-icon {
+    color: white;
+    font-size: 1.5rem;
+}
+
+button {
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-weight: bold;
+    width: 220px;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d8adb;
+}
+
+.follow-section, .trending-section {
+    background-color: #1c2938;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.follow-section h3,
+.trending-section h3 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.follow-section button,
+.trending-section button {
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+}
+
+.follow-section button:hover,
+.trending-section button:hover {
+    background-color: #0d8adb;
+}
+
+.tweet-button {
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    width: auto;
+    font-size: 16px;
+    text-align: center;
+    margin: 20px auto;
+    display: block;
+}
+
+.tweet-button:hover {
+    background-color: #0d8adb;
+}
